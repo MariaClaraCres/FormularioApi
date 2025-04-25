@@ -31,39 +31,6 @@ Java 11+
 Spring Boot
 Spring Data JPA
 
-Estrutura de Pastas :
-
-backend/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/api/
-│   │   │   ├── ApiApplication.java
-│   │   │   ├── controller/
-│   │   │   │   └── UserController.java
-│   │   │   ├── model/
-│   │   │   │   └── User.java
-│   │   │   ├── repository/
-│   │   │   │   └── UserRepository.java
-│   │   ├── resources/
-│   │       ├── application.properties
-│   │       └── data.sql (opcional)
-├── pom.xml (ou build.gradle)
-
-Frontend
-Tecnologias :
-Flutter
-Dart
-Pacote http para comunicação HTTP
-
-Estrutura de Pastas :
-frontend/
-├── lib/
-│   ├── main.dart
-│   ├── form_screen.dart
-│   └── config.dart (opcional, para configurar a URL da API)
-├── pubspec.yaml
-└── android/
-    └── app/src/main/AndroidManifest.xml
 
 Pré-requisitos
  
